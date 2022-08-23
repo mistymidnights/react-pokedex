@@ -1,0 +1,104 @@
+/* ---------colors-------- */
+* {
+  --primary: rgb(201, 209, 176);
+  --secondary: rgb(163, 95, 104);
+  --background: rgb(194, 219, 228);
+  --text: rgb(65, 90, 100);
+  --emphasis: rgb(39, 89, 110);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://cdn.discordapp.com/attachments/701164137081733201/1011760381535993936/Pokemon.full.3423411.png");
+}
+.TitleSection {
+  color: rgb(135, 91, 157);
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.423);
+  box-shadow: 11px 11px 20px 0px rgba(0, 0, 0, 0.291);
+}
+.TitleSection input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #5e98b1;
+  font-size: 18px;
+  padding-left: 10px;
+  background-color: rgb(135, 91, 157);
+  text-transform: capitalize;
+}
+.TitleSection button {
+  width: 200px;
+  height: 70px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color: #e7e7e6;
+  background-color: #fff7e9;
+  color: rgb(59, 77, 102);
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: rgb(128, 0, 192);
+  color: white;
+}
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  padding-top: 100px;
+}
+.DisplaySection h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 26px;
+  background-color: rgba(128, 0, 192, 0.517);
+  height: 80px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+}
+.pokemon-container {
+  background-color: #fff7e9;
+  color: rgb(59, 77, 102);
+  height: 700px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 11px 11px 20px 0px rgba(0, 0, 0, 0.291);
+}
+.pokemon-container h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.img-container img {
+  height: 250px;
+}
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 60px;
+  line-height: 0;
+  align-items: center;
+}
